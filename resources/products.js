@@ -1,11 +1,11 @@
-import GetawaysResorts from "@/app/assets/images/GetawaysResorts.png"
-import Roofer from "@/app/assets/images/Roofer.png"
-import StaySapphire from "@/app/assets/images/StaySapphire.png"
-import DestinHoliday from "@/app/assets/images/DestinHolidayBeachResort.png"
-import MyGreyCard from "@/app/assets/images/MyGrayCard.png"
-import AevaPharmacy from "@/app/assets/images/AevaPharmacy.png"
-import GetawaysAdvantage from "@/app/assets/images/GetawaysAdvantage.png"
-import DignityOfPersonhood from "@/app/assets/images/DignityOfPersonhood.png"
+import GetawaysResorts from "@/assets/images/GetawaysResorts.png"
+import Roofer from "@/assets/images/Roofer.png"
+import StaySapphire from "@/assets/images/StaySapphire.png"
+import DestinHoliday from "@/assets/images/DestinHolidayBeachResort.png"
+import MyGreyCard from "@/assets/images/MyGrayCard.png"
+import AevaPharmacy from "@/assets/images/AevaPharmacy.png"
+import GetawaysAdvantage from "@/assets/images/GetawaysAdvantage.png"
+import DignityOfPersonhood from "@/assets/images/DignityOfPersonhood.png"
 
 export const products = [
     {

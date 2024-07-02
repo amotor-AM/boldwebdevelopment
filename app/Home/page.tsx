@@ -1,24 +1,25 @@
 'use client'
 import React from 'react'
-import "./home.css"
+import "@/resources/home.css"
 import { motion } from "framer-motion"
-import { AuroraBackground } from '@/app/components/aurora-background'
-import { CardBody, CardContainer, CardItem } from "@/app/components/3d-card"
-import Design from "@/app/assets/images/eyecatchingDesign.png"
-import FullStack from "@/app/assets/images/fullstacksolutions.png"
-import UI from "@/app/assets/images/ui:ux.png"
+import { AuroraBackground } from '@/components/aurora-background'
+import { CardBody, CardContainer, CardItem } from "@/components/3d-card"
+import Design from "@/assets/images/eyecatchingDesign.png"
+import FullStack from "@/assets/images/fullstacksolutions.png"
+import UI from "@/assets/images/ui:ux.png"
 import Image from "next/image";
-import { InfiniteMovingCards } from "@/app/components/infinite-moving-cards";
-import { testimonials } from "./testimonials"
-import { text } from "./text"
-import { ButtonsCard } from '@/app/components/buttons'
-import InfiniteScrollingText from "@/app/components/infinite-scrolling-text"
+import { InfiniteMovingCards } from "@/components/infinite-moving-cards";
+import { testimonials } from "@/resources/testimonials"
+import { text } from "@/resources/text"
+import { ButtonsCard } from '@/components/buttons'
+import Link from 'next/link'
+import InfiniteScrollingText from "@/components/infinite-scrolling-text"
 
 function Home() {
     return (
         <div className="wrapper">
             <div className="w-full">
-                <AuroraBackground darkMode={true}>
+                <AuroraBackground>
                     <motion.div
                         initial={{ opacity: 0.0, y: 40 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -35,6 +36,13 @@ function Home() {
                         <div id="hero_text" className="text-2xl md:text-7xl text-white text-center">
                             Think <span className="font-bold">BOLD</span>
                         </div>
+                        <ButtonsCard>
+                            <Link href="/Book">
+                                <button className="text-white px-12 py-4 mt-20 rounded-full bg-[#ff5e1a] font-bold tracking-widest uppercase transform hover:scale-105 hover:bg-gray-300 transition-colors duration-200">
+                                    Book A Free Strategy Session
+                                </button>
+                            </Link>
+                        </ButtonsCard>
                     </motion.div>
                 </AuroraBackground>
             </div>
@@ -45,14 +53,14 @@ function Home() {
                         The Web Is Broken. We Fix It.
                     </p>
                     <div className="max-w-[900px] m-auto">
-                    <p className="text-xl lg:text-2xl pb-20">
-                        The digital landscape is a battlefield, and a weak website leaves you unarmed.
-                        At Bold Web Development, we're not just designers, we're{' '}
-                        <b>architects of industry-leading online experiences</b>.
-                        <br /><br />
-                        <b>Whether you're a seasoned competitor or a fearless newcomer</b>, we create websites that <b>dominate</b> and <b>convert</b>.
-                        We don't just build websites, we craft <b>strategic digital fortresses</b> that fuel your growth.
-                    </p>
+                        <p className="text-xl lg:text-2xl pb-20">
+                            The digital landscape is a battlefield, and a weak website leaves you unarmed.
+                            At Bold Web Development, we're not just designers, we're{' '}
+                            <b>architects of industry-leading online experiences</b>.
+                            <br /><br />
+                            <b>Whether you're a seasoned competitor or a fearless newcomer</b>, we create websites that <b>dominate</b> and <b>convert</b>.
+                            We don't just build websites, we craft <b>strategic digital fortresses</b> that fuel your growth.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -163,9 +171,11 @@ function Home() {
                         Partner with the Bold leaders at the forefront of web development. Contact us today for a free consultation!
                     </p>
                     <ButtonsCard>
-                        <button className="text-orange px-12 py-4 rounded-full bg-white font-bold tracking-widest uppercase transform hover:scale-105 hover:bg-gray-300 transition-colors duration-200">
-                            Contact Us
-                        </button>
+                        <Link href="/Contact">
+                            <button className="text-orange px-12 py-4 rounded-full bg-white font-bold tracking-widest uppercase transform hover:scale-105 hover:bg-gray-300 transition-colors duration-200">
+                                Contact Us
+                            </button>
+                        </Link>
                     </ButtonsCard>
                 </div>
             </div>

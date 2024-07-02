@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Image from "next/image";
-import { ButtonsCard } from '@/app/components/buttons'
+import { ButtonsCard } from '@/components/buttons'
+import Link from "next/link"
 
 interface CardPricingLogoProps {
     description: string;
@@ -30,7 +31,7 @@ export default function CardPricingLogo({
                 className="mt-24 shadow-lg rounded-lg bg-gray-800 w-full mb-6 text-white" // Dark background, white text
             >
                 <div className="pt-10">
-                    <Image alt="..." className="icon_image block mx-auto" src={image} />
+                    <Image alt="..." className="h-[50px] w-[50px] block mx-auto" src={image} />
                 </div>
                 <div className="text-center p-5 flex-auto">
                     <div className="flex flex-wrap">
@@ -53,9 +54,11 @@ export default function CardPricingLogo({
                         </ul>
                     </div>
                     <div className="pb-10">
+                        <Link target="_blank" rel="noopener noreferrer" href="https://boldwebdevelopment.hbportal.co/public/6680abc60c7050001919bd73">
                         <ButtonsCard>
                             <button className="text-white px-12 py-4 rounded-full bg-[#ff5e1a] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#ff5e1a] transition-colors duration-200">Get Started</button>
                         </ButtonsCard>
+                        </Link>
                     </div>
                 </div>
             </div>

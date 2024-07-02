@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Header from "@/header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        <title>Bold Web Development</title>
+        <meta name="description" content="Experience the Bold Difference. Bold Web Development: Your Trusted Partner for Award-Winning Websites. We leverage years of expertise to craft exceptional experiences. Let's talk!" />
+      </head>
+      <body className={inter.className}>
+        <div className="dark flex min-h-screen flex-col items-center justify-between p-10">
+          <header className="w-[100%] flex justify-center">
+            <Header />
+          </header>
+          <main>{children}</main>
+        </div>
+      </body>
     </html>
   );
 }

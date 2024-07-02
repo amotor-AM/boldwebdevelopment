@@ -1,6 +1,6 @@
-import Rocket from "@/app/assets/images/start-up.png"
-import Gem from "@/app/assets/images/gem.png"
-import React from "@/app/assets/images/science.png"
+import Rocket from "@/assets/images/start-up.png"
+import Gem from "@/assets/images/gem.png"
+import React from "@/assets/images/science.png"
 
 export const services = [
     {
