@@ -11,13 +11,13 @@ function Contact() {
           Need a website that stands out? We can help.
         </h1>
         <p className="text-xl mb-8">
-          From stunning design to powerful functionality, Bold Web Development builds websites that get noticed. Don't wait any longer to take control of your online presence. Schedule your free consultation today and let's get started!
+          From stunning design to powerful functionality, Bold Web Development builds websites that get noticed. Don&apos;t wait any longer to take control of your online presence. Schedule your free consultation today and let&apos;s get started!
         </p>
         <div className="flex items-center mb-8">
           <span className="text-xl">123-456-7890</span>
         </div>
         <div className="hb-p-6657601bdcb8e00037991139-1"></div>
-        <img
+        <Image
           height="1"
           width="1"
           style={{ display: 'none' }}

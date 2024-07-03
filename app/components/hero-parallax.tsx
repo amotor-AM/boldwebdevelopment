@@ -105,7 +105,7 @@ export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
       <h1 className="text-3xl md:text-7xl font-bold dark:text-white text-center">
-        We Don't Just Build Websites <br />We Cultivate <span className="text-orange">Growth Engines</span>
+        We Don&apos;t Just Build Websites <br />We Cultivate <span className="text-orange">Growth Engines</span>
       </h1>
       <p className="max-w-2xl mx-auto md:text-xl mt-8 dark:text-neutral-200 text-center">
       Stop building websites that gather dust.   

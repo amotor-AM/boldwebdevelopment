@@ -36,10 +36,10 @@ function Services() {
               This results in unparalleled design control and <Highlight delay={1}>lightning-fast performance</Highlight> – a winning combination for both you and your visitors.
               <br /><br /><br />
               <Highlight delay={1.5}>Our websites outperform the competition</Highlight>.
-              They're not just faster than most WordPress sites and drag-and-drop builders, they deliver a <Highlight delay={2}>superior user experience</Highlight>.
+              They&apos;re not just faster than most WordPress sites and drag-and-drop builders, they deliver a <Highlight delay={2}>superior user experience</Highlight>.
               And because the digital world is constantly changing, we offer lifetime updates to keep your website optimized and future-proofed.
               <br /><br /><br />
-              We're not just building websites, we're building websites that dominate online.
+              We&apos;re not just building websites, we&apos;re building websites that dominate online.
             </p>
           </div>
         </div>
@@ -51,8 +51,8 @@ function Services() {
             subtitle="Choose the plan that fits your needs"
             description="Say goodbye to one-size-fits-all pricing! 
                     We understand that every project has unique goals and budgetary constraints. 
-                    That's why we offer a range of flexible pricing options to empower you to achieve your vision. 
-                    Whether you're looking for a quick and efficient launch, a predictable monthly cost structure, or ongoing development support, we have a plan that fits your requirements perfectly."
+                    That&apos;s why we offer a range of flexible pricing options to empower you to achieve your vision. 
+                    Whether you&apos;re looking for a quick and efficient launch, a predictable monthly cost structure, or ongoing development support, we have a plan that fits your requirements perfectly."
             color="dark"
             alignment='center'
           />
@@ -76,10 +76,10 @@ function Services() {
           </h1>
           <p className="mt-2 text-neutral-300 text-xl pt-4 relative z-20 mb-10">
             Feeling overwhelmed by the possibilities or confused about the next step?
-            That's totally normal! We've been there. At Bold Web Development, we're
+            That&apos;s totally normal! We&apos;ve been there. At Bold Web Development, we&apos;re
             experts at untangling complex ideas and turning them into stunning,
-            user-friendly websites. Let's chat about your vision, and we'll help you
-            navigate the process with clarity and confidence. We'll break down the
+            user-friendly websites. Let&apos;s chat about your vision, and we&apos;ll help you
+            navigate the process with clarity and confidence. We&apos;ll break down the
             project into manageable steps and guide you every step of the way.
           </p>
           <ButtonsCard>

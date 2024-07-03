@@ -14,14 +14,14 @@ function About() {
       <div className="flex flex-col h-auto lg:flex-row justify-center gap-10 lg:gap-20 items-start md:items-center p-12">
         <div className="w-[45%] md:w-[96%]">
           <h1 className="text-white text-4xl lg:text-6xl md:text-5xl font-bold pb-20">
-            We Don't Just Build Websites. <br />We Build Conversion Machines.
+            We Don&apos;t Just Build Websites. <br />We Build Conversion Machines.
           </h1>
           <p className="text-light-grey text-xl lg:text-2xl mt-4">
-            We're Bold Web Development, and mediocrity is our enemy. We're a passionate team of web architects obsessed with crafting <b>award-winning online experiences</b> that <b>dominate</b> the digital landscape.
+            We&apos;re Bold Web Development, and mediocrity is our enemy. We're a passionate team of web architects obsessed with crafting <b>award-winning online experiences</b> that <b>dominate</b> the digital landscape.
             <br /><br />
-            Forget cookie-cutter websites built on yesterday's trends. We take a scalpel to the ordinary, meticulously crafting conversion-focused websites that <b>convert</b> visitors into <b>loyal customers</b>.
+            Forget cookie-cutter websites built on yesterday&apos;s trends. We take a scalpel to the ordinary, meticulously crafting conversion-focused websites that <b>convert</b> visitors into <b>loyal customers</b>.
             <br /><br />
-            We're more than just developers - we're your strategic partners in the ever-evolving digital battlefield. We'll help you outmaneuver the competition and <b>propel your brand to the forefront</b>.
+            We&apos;re more than just developers - we&apos;re your strategic partners in the ever-evolving digital battlefield. We&apos;ll help you outmaneuver the competition and <b>propel your brand to the forefront</b>.
           </p>
         </div>
         <div
@@ -60,18 +60,18 @@ function About() {
             className="text-light-grey text-xl lg:text-2xl max-w-3xl py-10"
           >
             Our story starts with a simple truth: most small businesses get a raw deal online.
-            They're stuck with outdated, slow, ineffective websites that drain their budgets and deliver zero results.
-            We saw this frustration firsthand and decided to take a stand. That's how Bold Web Development was born.
+            They&apos;re stuck with outdated, slow, ineffective websites that drain their budgets and deliver zero results.
+            We saw this frustration firsthand and decided to take a stand. That&apos;s how Bold Web Development was born.
             <br /><br />
-            We're more than just developers – we're your strategic partners in the ever-evolving digital landscape.
+            We&apos;re more than just developers – we&apos;re your strategic partners in the ever-evolving digital landscape.
             We go beyond aesthetics.
-            We delve into your business goals, target audience, and competitive landscape to craft a website that's a powerful marketing weapon.
+            We delve into your business goals, target audience, and competitive landscape to craft a website that&apos;s a powerful marketing weapon.
           </motion.p>
         </LampContainer>
       </div>
       <div className="flex flex-col items-center justify-center gap-12 py-12 min-h-[600px] w-full bg-cover bg-center" style={{ backgroundImage: `url(${Objects.src})` }}>
         <p className="text-4xl lg:text-6xl text-white">Ready to join the Bold revolution?</p>
-        <p className="text-2xl lg:text-3xl text-white">Let's chat about your project!</p>
+        <p className="text-2xl lg:text-3xl text-white">Let&apos;s chat about your project!</p>
         <ButtonsCard>
           <Link href="/Contact">
             <button className="text-white px-12 py-4 rounded-full bg-[#ff5e1a] font-bold tracking-widest uppercase transform hover:scale-105 hover:bg-gray-300 transition-colors duration-200">
