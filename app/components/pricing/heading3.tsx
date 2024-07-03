@@ -14,7 +14,7 @@ export default function Heading3({
   title,
   description,
   color = "blueGray",
-  alignment = "left",
+  alignment = "center",
   whiteContent = false,
 }: Heading3Props) {
   const colors: Record<string, string> = {
@@ -51,19 +51,19 @@ export default function Heading3({
       <div className={"mb-12 flex flex-wrap -mx-4 " + alignmentsRow[alignment]}>
         <div
           className={
-            "px-4 relative w-full lg:w-8/12 " + alignmentsText[alignment]
+            "px-4 relative w-full lg:w-10/12 " + alignmentsText[alignment]
           }
         >
           {subtitle && (
-            <h6 className={"mb-5 font-bold uppercase text-2xl md:text-3xl lg:text-4xl" + colors[color]}>
+            <h6 className={"mb-5 font-bold uppercase text-2xl md:text-3xl lg:text-4xl text-center " + colors[color]}>
               {subtitle}
             </h6>
           )}
           {title && (
             <h3
               className={
-                "text-3xl md:text-4xl lg:text-6xl font-bold mt-3 mb-10 " +
-                (whiteContent ? "text-white" : "text-blueGray-700")
+                "text-3xl md:text-4xl lg:text-6xl font-bold mt-3 mb-5 text-center " +
+                (whiteContent ? " text-white" : " text-blueGray-700")
               }
             >
               {title}

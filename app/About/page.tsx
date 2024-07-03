@@ -3,8 +3,8 @@ import React from 'react'
 import Hero from "@/assets/images/aboutHero.png"
 import Objects from "@/assets/images/objects.png"
 import Image from 'next/image'
-import { LampContainer } from '@/components/lamp';
-import { ButtonsCard } from '@/components/buttons'
+import { LampContainer } from '@/app/components/lamp';
+import { ButtonsCard } from '@/app/components/buttons'
 import { motion } from "framer-motion";
 import Link from "next/link"
 

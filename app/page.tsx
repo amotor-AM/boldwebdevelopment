@@ -2,18 +2,18 @@
 import React from 'react'
 import "@/resources/home.css"
 import { motion } from "framer-motion"
-import { AuroraBackground } from '@/components/aurora-background'
-import { CardBody, CardContainer, CardItem } from "@/components/3d-card"
+import { AuroraBackground } from '@/app/components/aurora-background'
+import { CardBody, CardContainer, CardItem } from "@/app/components/3d-card"
 import Design from "@/assets/images/eyecatchingDesign.png"
 import FullStack from "@/assets/images/fullstacksolutions.png"
 import UI from "@/assets/images/ui:ux.png"
 import Image from "next/image";
-import { InfiniteMovingCards } from "@/components/infinite-moving-cards";
+import { InfiniteMovingCards } from "@/app/components/infinite-moving-cards";
 import { testimonials } from "@/resources/testimonials"
 import { text } from "@/resources/text"
-import { ButtonsCard } from '@/components/buttons'
+import { ButtonsCard } from '@/app/components/buttons'
 import Link from 'next/link'
-import InfiniteScrollingText from "@/components/infinite-scrolling-text"
+import InfiniteScrollingText from "@/app/components/infinite-scrolling-text"
 
 function Index() {
     return (
@@ -114,7 +114,7 @@ function Index() {
                             </CardItem>
                             <CardItem translateZ="100" className="w-full mt-4">
                                 <Image
-                                    src={FullStack}
+                                    src={Design}
                                     height="1000"
                                     width="1000"
                                     className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -141,7 +141,7 @@ function Index() {
                             </CardItem>
                             <CardItem translateZ="100" className="w-full mt-4">
                                 <Image
-                                    src={Design}
+                                    src={FullStack}
                                     height="1000"
                                     width="1000"
                                     className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -172,7 +172,7 @@ function Index() {
                     </p>
                     <ButtonsCard>
                         <Link href="/Contact">
-                            <button className="text-orange px-12 py-4 rounded-full bg-white font-bold tracking-widest uppercase transform hover:scale-105 hover:bg-gray-300 transition-colors duration-200">
+                            <button className="text-[#ff5e1a] px-12 py-4 rounded-full bg-white font-bold tracking-widest uppercase transform hover:scale-105 hover:bg-gray-300 transition-colors duration-200">
                             </button>
                         </Link>
                     </ButtonsCard>

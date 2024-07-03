@@ -3,15 +3,15 @@ import React from 'react'
 import Laptop from "@/assets/images/laptopWithCode.png"
 import { services } from '@/resources/offerings.js'
 import Image from 'next/image'
-import { TextGenerateEffect } from '@/components/text-generate'
-import { HeroParallax } from '@/components/hero-parallax'
+import { TextGenerateEffect } from '@/app/components/text-generate'
+import { HeroParallax } from '@/app/components/hero-parallax'
 import { products } from "@/resources/products.js"
-import Heading3 from '@/components/pricing/heading3'
-import CardPricingLogo from '@/components/pricing/CardPricingLogo'
-import { Highlight } from '@/components/hero-highlight'
-import { Boxes } from '@/components/background-boxes'
+import Heading3 from '@/app/components/pricing/heading3'
+import CardPricingLogo from '@/app/components/pricing/CardPricingLogo'
+import { Highlight } from '@/app/components/hero-highlight'
+import { Boxes } from '@/app/components/background-boxes'
 import { cn } from '@/utils/cn'
-import { ButtonsCard } from '@/components/buttons'
+import { ButtonsCard } from '@/app/components/buttons'
 import Link from "next/link"
 
 function Services() {

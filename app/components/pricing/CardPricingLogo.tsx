@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Image from "next/image";
-import { ButtonsCard } from '@/components/buttons'
+import { ButtonsCard } from '@/app/components/buttons'
 import Link from "next/link"
 
 interface CardPricingLogoProps {

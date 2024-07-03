@@ -5,8 +5,8 @@ import ContactHero from "@/assets/images/contactHero.png"
 
 function Contact() {
   return (
-    <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between px-4 lg:px-16 py-10 lg:py-20">
-      <div className="lg:w-1/2 w-full lg:pr-8 mb-8 lg:mb-0">
+    <div className="flex flex-col xl:flex-row items-center lg:items-start justify-between px-4 lg:px-16 py-10 lg:py-20">
+      <div className="xl:w-1/2 w-full lg:pr-8 mb-8 lg:mb-0">
         <h1 className="text-4xl lg:text-6xl md:text-4xl font-bold mb-4">
           Need a website that stands out? We can help.
         </h1>
@@ -38,7 +38,7 @@ function Contact() {
           }}
         />
       </div>
-      <div className="relative lg:w-1/2 w-full h-[1200px] lg:block hidden">
+      <div className="relative xl:w-1/2 w-full h-[1200px] xl:block hidden">
           <Image
             src={ContactHero}
             alt="Contact Image"
