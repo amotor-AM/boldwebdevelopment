@@ -171,9 +171,8 @@ function Index() {
                         Partner with the Bold leaders at the forefront of web development. Contact us today for a free consultation!
                     </p>
                     <ButtonsCard>
-                        <Link href="/Contact">
-                            <button className="text-[#ff5e1a] px-12 py-4 rounded-full bg-white font-bold tracking-widest uppercase transform hover:scale-105 hover:bg-gray-300 transition-colors duration-200">
-                            </button>
+                        <Link href="/Contact" className="text-[#ff5e1a] px-12 py-4 rounded-full bg-white font-bold tracking-widest uppercase transform hover:scale-105 hover:bg-gray-300 transition-colors duration-200">
+                          Contact Us To Get Started
                         </Link>
                     </ButtonsCard>
                 </div>
