@@ -12,6 +12,9 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      fontSize: {
+        "heroText": "30px"
+      },
       animation: {
         shimmer: "shimmer 2s linear infinite",
       },

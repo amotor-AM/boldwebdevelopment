@@ -18,6 +18,9 @@ module.exports = {
       sans: ['Roboto', 'sans-serif'],
     },
     extend: {
+      fontSize: {
+        "heroText": "30px"
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

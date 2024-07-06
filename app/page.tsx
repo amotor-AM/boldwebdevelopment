@@ -30,10 +30,10 @@ function Index() {
                         }}
                         className="relative flex flex-col gap-4 items-center justify-center px-4"
                     >
-                        <div id="hero_text" className="text-2xl md:text-7xl text-white text-center">
+                        <div className="uppercase mb-0 tracking-widest text-5xl lg:text-8xl text-white text-center">
                             Think BIG
                         </div>
-                        <div id="hero_text" className="text-2xl md:text-7xl text-white text-center">
+                        <div className="uppercase mb-0 tracking-widest text-5xl lg:text-8xl text-white text-center">
                             Think <span className="font-bold">BOLD</span>
                         </div>
                         <ButtonsCard>
@@ -47,7 +47,7 @@ function Index() {
                 </AuroraBackground>
             </div>
 
-            <div className="w-full min-h-[500px] bg-[#ff5e1a] rounded-[10%_10%_100%_0%_/_0%_0%_30%_10%] flex justify-center items-center py-40 mb-40 font-light">
+            <div className="w-full bg-[#ff5e1a] rounded-[10%_10%_100%_0%_/_0%_0%_30%_10%] flex justify-center items-center py-10 mb-10 lg:py-40 lg:mb-40 font-light">
                 <div className="w-11/12 lg:w-3/4 mx-auto text-center text-white">
                     <p className="text-4xl lg:text-6xl font-medium py-8 lg:py-10">
                         The Web Is Broken. We Fix It.
@@ -65,14 +65,14 @@ function Index() {
                 </div>
             </div>
 
-            <div className="w-full my-40 text-center">
+            <div className="w-full my-20 lg:my-40 text-center">
                 <h2 className="text-white text-3xl lg:text-5xl md:text-5xl font-bold text-neutral-600">Our expertise goes beyond the ordinary</h2>
-                <div className="flex gap-50 justify-center items-start mt-20 mb-40 flex-wrap">
+                <div className="flex gap-50 justify-center items-start mt-0 mb-10 lg:mt-20 lg:mb-40 flex-wrap">
                     <CardContainer className="inter-var">
-                        <CardBody className="bg-gray-50 relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+                        <CardBody className="bg-gray-50 relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                             <CardItem
                                 translateZ="50"
-                                className="text-xl font-bold text-neutral-600 text-orange"
+                                className="text-xl font-bold text-neutral-600 m-auto text-orange"
                             >
                                 From Concept To Conquest:
                             </CardItem>
@@ -100,7 +100,7 @@ function Index() {
                         <CardBody className="bg-gray-50 relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                             <CardItem
                                 translateZ="50"
-                                className="text-xl font-bold text-neutral-600 text-orange"
+                                className="text-xl font-bold text-neutral-600 m-auto text-orange"
                             >
                                 Eye-Catching Design That Converts:
                             </CardItem>
@@ -127,7 +127,7 @@ function Index() {
                         <CardBody className="bg-gray-50 relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                             <CardItem
                                 translateZ="50"
-                                className="text-xl font-bold text-neutral-600 text-orange"
+                                className="text-xl font-bold text-neutral-600 m-auto text-orange"
                             >
                                 Full-Stack Solutions For Scalable Growth:
                             </CardItem>
@@ -162,8 +162,8 @@ function Index() {
                 </div>
             </div>
 
-            <div className="w-full min-h-[750px] mt-[100px] bg-[#ff5e1a] flex justify-center items-center px-40 md:px-10 pb-0 mb-0">
-                <div className="max-w-[600px] text-4xl lg:text-6xl md:text-4xl text-white">
+            <div className="w-full mt-[100px] bg-[#ff5e1a] lg:flex justify-center items-center lg:px-40 md:px-10 pb-10 mb-0">
+                <div className="max-w-[600px] text-3xl lg:text-6xl text-white m-auto text-center my-10 lg:my-0">
                     Stop fighting an uphill battle with a mediocre website
                 </div>
                 <div className="max-w-[800px] flex flex-col items-center justify-center text-center">

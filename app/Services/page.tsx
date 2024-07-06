@@ -44,7 +44,7 @@ function Services() {
                     </div>
                 </div>
             </div>
-            <div className="py-20 w-full">
+            <div className="lg:py-20 w-full">
                 <div className="container mx-auto px-4">
                     <Heading3
                         title="Flexible Plans To Fit All Budgets"
@@ -84,7 +84,7 @@ function Services() {
                     </p>
                     <div className="z-20 pb-6">
                         <Link href="/Contact" className="text-[#ff5e1a] px-12 py-4 rounded-full bg-[#fff] mb-20 font-bold tracking-widest uppercase transform hover:scale-105 hover:bg-[#ff5e1a] hover:text-white transition-colors duration-200">
-                            Contact Us To Get Started
+                            Contact Us
                         </Link>
                     </div>
                 </div>

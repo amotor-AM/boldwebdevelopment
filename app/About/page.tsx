@@ -11,10 +11,10 @@ import Link from "next/link"
 function About() {
   return (
     <div className="wrapper">
-      <div className="flex flex-col h-auto lg:flex-row justify-center gap-10 lg:gap-20 items-start md:items-center p-12">
-        <div className="w-[45%] md:w-[96%]">
-          <h1 className="text-white text-4xl lg:text-6xl md:text-5xl font-bold pb-20">
-            We Don&apos;t Just Build Websites. <br />We Build Conversion Machines.
+      <div className="flex flex-col lg:flex-row justify-center gap-10 lg:gap-20 items-start md:items-center p-12">
+        <div className="lg:w-[45%] w-full">
+          <h1 className="text-white text-3xl lg:text-6xl md:text-5xl font-bold pb-20">
+            We Don&apos;t Just Build Websites. We Build Conversion Machines.
           </h1>
           <p className="text-light-grey text-xl lg:text-2xl mt-4">
             We&apos;re Bold Web Development, and mediocrity is our enemy. We're a passionate team of web architects obsessed with crafting <b>award-winning online experiences</b> that <b>dominate</b> the digital landscape.
@@ -25,14 +25,14 @@ function About() {
           </p>
         </div>
         <div
-          className="relative min-w-[300px] min-h-[450px] lg:w-[500px] lg:h-[750px] xl:w-[750px] xl:h-[900px]"
+          className="relative min-w-[300px] lg:w-[500px] lg:h-[750px] xl:w-[750px] xl:h-[900px]"
         >
           <Image
             src={Hero}
             alt="about page hero image"
             layout="fill"
             objectFit="cover"
-            className="z-0"
+            className="z-0 hidden lg:block"
           />
         </div>
       </div>
@@ -46,7 +46,7 @@ function About() {
               duration: 0.8,
               ease: "easeInOut",
             }}
-            className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+            className="md:mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
           >
             Born from Frustration, <br /> Fueled by Passion
           </motion.h1>
@@ -70,7 +70,7 @@ function About() {
         </LampContainer>
       </div>
       <div className="flex flex-col items-center justify-center gap-12 py-12 min-h-[600px] w-full bg-cover bg-center" style={{ backgroundImage: `url(${Objects.src})` }}>
-        <p className="text-4xl lg:text-6xl text-white">Ready to join the Bold revolution?</p>
+        <p className="text-4xl lg:text-6xl text-center text-white">Ready to join the Bold revolution?</p>
         <p className="text-2xl lg:text-3xl text-white">Let&apos;s chat about your project!</p>
         <ButtonsCard>
           <Link href="/Contact">
