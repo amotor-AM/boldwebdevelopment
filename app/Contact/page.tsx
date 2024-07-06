@@ -17,7 +17,7 @@ function Contact() {
           <span className="text-xl">123-456-7890</span>
         </div>
         <div className="hb-p-6657601bdcb8e00037991139-1"></div>
-        <Image
+        <img
           height="1"
           width="1"
           style={{ display: 'none' }}
