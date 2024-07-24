@@ -2,6 +2,7 @@
 import React from 'react'
 import Laptop from "@/assets/images/laptopWithCode.png"
 import { services } from '@/resources/offerings.js'
+import {process} from "@/resources/process.js"
 import Image from 'next/image'
 import { TextGenerateEffect } from '@/app/components/text-generate'
 import { HeroParallax } from '@/app/components/hero-parallax'
@@ -13,6 +14,7 @@ import { Boxes } from '@/app/components/background-boxes'
 import { cn } from '@/utils/cn'
 import { ButtonsCard } from '@/app/components/buttons'
 import Link from "next/link"
+import { StickyScroll } from '../components/sticky-scroll-reveal'
 
 function Services() {
     const words = "Unleash Your Brand's Potential With Web Development That Drives Results"
@@ -56,7 +58,7 @@ function Services() {
                         color="dark"
                         alignment='center'
                     />
-                    <div className="flex flex-wrap -mx-4">
+                    <div className="flex flex-wrap justify-center w-full gap-6 -mx-4">
                         {services.map((cardProps: any, key) => (
                             <div key={key} className="px-4 relative w-full md:w-4/12 mb-8">
                                 <CardPricingLogo {...cardProps} />
@@ -64,6 +66,10 @@ function Services() {
                         ))}
                     </div>
                 </div>
+            </div>
+            <div className="w-full py-20 text-center">
+            <Heading3 title="Our Process"/>
+                <StickyScroll content={process}/>
             </div>
             <div className="h-96 relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center rounded-lg h-auto py-10">
                 <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none"></div>

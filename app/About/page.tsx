@@ -14,7 +14,7 @@ function About() {
       <div className="flex flex-col lg:flex-row justify-center gap-10 lg:gap-20 items-start md:items-center p-12">
         <div className="lg:w-[45%] w-full">
           <h1 className="text-white text-3xl lg:text-6xl md:text-5xl font-bold pb-20">
-            We Don&apos;t Just Build Websites. We Build Conversion Machines.
+            Crafting Bespoke Conversion Machines.
           </h1>
           <p className="text-light-grey text-xl lg:text-2xl mt-4">
             We&apos;re Bold Web Development, and mediocrity is our enemy. We're a passionate team of web architects obsessed with crafting <b>award-winning online experiences</b> that <b>dominate</b> the digital landscape.

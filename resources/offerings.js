@@ -10,13 +10,13 @@ export const services = [
         line: "orange",
         list: ["Own Your Code", "5 Custom Web Pages", "Unlimited Edits", "Discounted Hosting", "SEO Optimized", "Designed To Convert"],
     },
-    {
-        image: Rocket,
-        title: "The LaunchPad",
-        description: "$150/M",
-        line: "orange",
-        list: ["12 Month Minimum Contract", "5 Custom Web Pages", "Unlimited Edits", "High-Performance Hosting", "Lifetime Updates", "FREE ChatBot"],
-    },
+    // {
+    //     image: Rocket,
+    //     title: "The LaunchPad",
+    //     description: "$150/M",
+    //     line: "orange",
+    //     list: ["12 Month Minimum Contract", "5 Custom Web Pages", "Unlimited Edits", "High-Performance Hosting", "Lifetime Updates", "FREE ChatBot"],
+    // },
     {
         image: React,
         title: "The Accelerator",
